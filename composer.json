@@ -1,0 +1,17 @@
+{
+    "name": "maytinh/codegym",
+    "description": "My Case Study Module 2",
+    "require": {
+        "ext-pdo": "*",
+        "ext-mbstring": "*",
+        "ezyang/htmlpurifier": "^4.13"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "./app"
+        }
+    }
+}
